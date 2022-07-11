@@ -2,6 +2,7 @@ header {
     display: flex;
     align-items: center;
     padding: 10px 15px;
+    justify-content: space-between;
 }
 
 header img {
@@ -23,5 +24,23 @@ header img {
 
 .img-post img {
     width: 100%;
+}
+
+.footer-post {
+    padding: 10px 15px;
+}
+
+.engagements-post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.engagements-post .icons-1 {
+    display: flex;
+    gap: 16px;
+}
+
+.icon {
+    cursor: pointer;
 }
 
