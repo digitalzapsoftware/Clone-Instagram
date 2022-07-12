@@ -71,7 +71,9 @@ export function Post () {
                 </div>
 
                 <div className='time-post'>
+
                     <time>HÁ 1 HORA!</time>
+                    
                 </div>
 
                 <div className='comment'>
