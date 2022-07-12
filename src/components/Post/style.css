@@ -44,3 +44,25 @@ header img {
     cursor: pointer;
 }
 
+.like {
+    margin-top: 6px;
+
+}
+
+.like span {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.legend {
+    margin: 6px 0 3px;
+}
+
+.legend p span {
+    font-weight: 500;
+}
+
+.time-post time{
+    font-size: 9px;
+    color: var(--secundary);
+}

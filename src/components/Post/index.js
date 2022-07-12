@@ -52,9 +52,35 @@ export function Post () {
 
                     <div className='icon'>
                         <BsBookmark size={20} />
-                    </div>
+                    </div> 
 
                 </section>
+
+                <section className='like'>
+
+                    <span>60 Curtidas</span>
+
+                </section>
+
+                <div className='legend'>
+                     
+                     <p>
+                         <span>maykbrito</span> Olá esse é meu site! um clone do instagram com novas funcionalidades.
+                     </p>
+
+                </div>
+
+                <div className='time-post'>
+                    <time>HÁ 1 HORA!</time>
+                </div>
+
+                <div className='comment'>
+
+                    <div className='fake-comment'>
+                        
+                    </div>
+
+                </div>
 
             </div>
 
