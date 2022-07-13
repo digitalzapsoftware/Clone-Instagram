@@ -7,7 +7,7 @@ import {FiHeart} from 'react-icons/fi'
 import './style.css'
 
 export function Header() {
-    return ( 
+    return (
         <header className='header'>
 
         <div className='container'>
