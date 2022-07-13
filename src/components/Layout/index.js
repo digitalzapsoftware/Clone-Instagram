@@ -22,7 +22,7 @@ export function Layout() {
 
                     < Post />
 
-                </div>
+                </div> 
 
                 </div>
 

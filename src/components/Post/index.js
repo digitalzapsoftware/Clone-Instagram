@@ -1,7 +1,7 @@
 import './style.css'
 import {FiMoreHorizontal} from 'react-icons/fi'
 import {IoMdHeartEmpty} from 'react-icons/io'
-import {BsChat} from 'react-icons/bs'
+import {BsChat, BsEmojiSmile} from 'react-icons/bs'
 import {FiSend} from 'react-icons/fi'
 import {BsBookmark} from 'react-icons/bs'
 
@@ -12,9 +12,9 @@ export function Post () {
 
                 <div className='infos-post'>
 
-                    <img src='https://github.com/maykbrito.png' alt='image' />
+                    <img src='https://github.com/evanilsonpg.png' alt='image' />
 
-                    <p>maykbrito</p>
+                    <p>dev.nilson</p>
 
                 </div>
 
@@ -26,7 +26,7 @@ export function Post () {
 
             <div className='img-post'>
 
-                <img src='https://github.com/maykbrito.png' alt='img-post' />
+                <img src='https://github.com/evanilsonpg.png' alt='img-post' />
 
             </div>
 
@@ -65,7 +65,7 @@ export function Post () {
                 <div className='legend'>
                      
                      <p>
-                         <span>maykbrito</span> Olá esse é meu site! um clone do instagram com novas funcionalidades.
+                         <span>dev.nilson</span> Olá esse é meu site! um clone do instagram com novas funcionalidades.
                      </p>
 
                 </div>
@@ -79,10 +79,18 @@ export function Post () {
                 <div className='comment'>
 
                     <div className='fake-comment'>
+
+                        <div className="icon">
+                            <BsEmojiSmile size={20} />
+                        </div>
+
+                        <input placeholder='Adicione um comentário ...' />
                         
                     </div>
 
-                </div>
+                    <button>Publicar</button>
+
+                </div> 
 
             </div>
 
