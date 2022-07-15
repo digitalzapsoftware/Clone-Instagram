@@ -62,13 +62,13 @@ header img {
     font-weight: 500;
 }
 
-.time-post time{
+.time-post time {
     font-size: 9px;
     color: var(--secundary);
 }
 
 .comment {
-    border-top: 1px solid var(--border-secuodary);
+    border-top: 1px solid var(--border-secundary);
     margin-top: 8px;
     display: flex;
 }
