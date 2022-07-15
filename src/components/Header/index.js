@@ -35,7 +35,7 @@ export function Header() {
 
                 <img className="img-user" src="https://github.com/evanilsonpg.png" />
 
-            </div>
+            </div> 
 
         </div>
 

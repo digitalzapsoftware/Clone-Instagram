@@ -1,11 +1,11 @@
-header {
+.header-post {
     display: flex;
     align-items: center;
     padding: 10px 15px;
     justify-content: space-between;
 }
 
-header img {
+.img-header-post {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -78,5 +78,15 @@ header img {
     display: flex;
     align-items: center;
     flex: 1;
+    gap: 16px;
 } 
+
+.fake-comment input {
+    font-size: 12px;
+}
+
+.comment button {
+    color: var(--quartary);
+    cursor: pointer;
+}
 

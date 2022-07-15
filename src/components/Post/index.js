@@ -8,11 +8,11 @@ import {BsBookmark} from 'react-icons/bs'
 export function Post () {
     return(
         <>
-            <header>
+            <header className='header-post'>
 
                 <div className='infos-post'>
 
-                    <img src='https://github.com/evanilsonpg.png' alt='image' />
+                    <img className='img-header-post' src='https://github.com/evanilsonpg.png' alt='image' />
 
                     <p>dev.nilson</p>
 

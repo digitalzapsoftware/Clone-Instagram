@@ -3,7 +3,7 @@
     grid-template-areas: 'firstColumn secondColumn';
     grid-template-columns: 614px 293px;
     max-width: 957px;
-    margin: 0 auto;
+    margin: 70px auto;
     grid-gap: 50px;
 }
 
@@ -13,5 +13,4 @@
 }
 
 .suggestionBox {
-    background: darkblue;
 }
