@@ -23,6 +23,14 @@ export function Suggestion () {
 
             </div>
 
+            <div className='header-main-suggestion'>
+
+                    <p>Sugestões para voce</p>
+
+                    <span>Ver tudo</span>
+
+            </div>
+
         </>
     )
 }

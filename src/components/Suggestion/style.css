@@ -34,3 +34,21 @@
     font-size: 13px;
     color: var(--secundary);
 }
+
+.header-main-suggestion {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 10px 0;
+}
+
+.header-main-suggestion p {
+    font-size: 15px;
+    color: var(--secundary);
+    font-weight: 500;
+}
+
+.header-main-suggestion span {
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
