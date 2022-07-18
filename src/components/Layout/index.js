@@ -6,7 +6,7 @@ import{ Suggestion } from '../Suggestion'
 
 
 export function Layout() {
-    return(
+    return( 
         <>
 
             <div className='MainGrid'>

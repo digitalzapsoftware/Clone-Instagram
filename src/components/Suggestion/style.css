@@ -32,7 +32,7 @@
 
 .user-infos-suggestion p {
     font-size: 13px;
-    color: var(--secundary);
+    color: var(--secondary);
 }
 
 .header-main-suggestion {
@@ -43,7 +43,7 @@
 
 .header-main-suggestion p {
     font-size: 15px;
-    color: var(--secundary);
+    color: var(--secondary);
     font-weight: 500;
 }
 
@@ -52,3 +52,46 @@
     font-weight: 500;
     cursor: pointer;
 }
+
+.user-suggestion {
+    margin-top: 5px;
+}
+
+.infos-suggestion {
+    margin: 15px 0 0 5px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.infos-suggestion img {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.info-suggestion {
+    flex: 1;
+}
+
+.info-suggestion span {
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.info-suggestion p {
+    font-size: 13px;
+    color: var(--secondary);
+    margin-top: 3px;
+}
+
+.infos-suggestion .follow {
+    font-size: 12px;
+    cursor: pointer;
+    color: var(--quartary);
+    font-weight: 500;
+}
+
+
